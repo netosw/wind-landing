@@ -8,49 +8,49 @@ const Features = () => {
   
   const features = [
     {
-      title: "Payment Automation",
-      description: "Automate payment processing and reconciliation to reduce manual errors and improve efficiency.",
-      expandedDescription: "Set up automated payment workflows with custom approval chains. Schedule recurring payments, automate invoice processing, and create conditional rules for different transaction types. Reduce manual intervention and ensure compliance with financial regulations.",
+      title: "Automatización de Pagos",
+      description: "Automatiza el procesamiento de pagos y conciliación para reducir errores manuales y mejorar la eficiencia.",
+      expandedDescription: "Configura flujos de trabajo de pagos automatizados con cadenas de aprobación personalizadas. Programa pagos recurrentes, automatiza el procesamiento de facturas y crea reglas condicionales para diferentes tipos de transacción. Reduce la intervención manual y asegura el cumplimiento de las regulaciones financieras.",
       icon: (
         <Layers size={24} className="text-cosmic-accent" />
       )
     },
     {
-      title: "Real-time Analytics",
-      description: "Monitor financial performance with real-time dashboards and comprehensive reporting.",
-      expandedDescription: "Track key financial metrics with customizable dashboards. Monitor cash flow, payment volumes, and transaction success rates in real-time. Generate detailed reports for stakeholders and identify trends before they impact your business.",
+      title: "Análisis en Tiempo Real",
+      description: "Monitorea el desempeño financiero con dashboards en tiempo real y reportes comprensivos.",
+      expandedDescription: "Rastrea métricas financieras clave con dashboards personalizables. Monitorea flujo de efectivo, volúmenes de pago y tasas de éxito de transacciones en tiempo real. Genera reportes detallados para stakeholders e identifica tendencias antes de que impacten tu negocio.",
       icon: (
         <Grid3x3 size={24} className="text-cosmic-accent" />
       )
     },
     {
-      title: "Risk Management",
-      description: "Advanced fraud detection and risk assessment tools to protect your business.",
-      expandedDescription: "Utilize machine learning algorithms to detect suspicious transactions and prevent fraud. Set up custom risk rules, monitor transaction patterns, and receive instant alerts for unusual activity. Protect your business with enterprise-grade security measures.",
+      title: "Gestión de Riesgos",
+      description: "Herramientas avanzadas de detección de fraudes y evaluación de riesgos para proteger tu negocio.",
+      expandedDescription: "Utiliza algoritmos de machine learning para detectar transacciones sospechosas y prevenir fraudes. Configura reglas de riesgo personalizadas, monitorea patrones de transacción y recibe alertas instantáneas de actividad inusual. Protege tu negocio con medidas de seguridad de nivel empresarial.",
       icon: (
         <LayoutDashboard size={24} className="text-cosmic-accent" />
       )
     },
     {
-      title: "Compliance Tools",
-      description: "Built-in compliance features to meet regulatory requirements effortlessly.",
-      expandedDescription: "Stay compliant with financial regulations across multiple jurisdictions. Automated KYC/AML checks, transaction monitoring, and regulatory reporting. Generate audit trails and maintain documentation to meet compliance standards.",
+      title: "Herramientas de Cumplimiento",
+      description: "Características de cumplimiento integradas para cumplir requisitos regulatorios sin esfuerzo.",
+      expandedDescription: "Mantente en cumplimiento con regulaciones financieras en múltiples jurisdicciones. Verificaciones KYC/AML automatizadas, monitoreo de transacciones y reportes regulatorios. Genera auditorías y mantén documentación para cumplir estándares de compliance.",
       icon: (
         <ListCheck size={24} className="text-cosmic-accent" />
       )
     },
     {
-      title: "Multi-currency Support",
-      description: "Process payments in multiple currencies with real-time exchange rates.",
-      expandedDescription: "Accept and process payments in over 150 currencies with competitive exchange rates. Automatic currency conversion, hedging tools, and multi-currency accounting. Expand your business globally with seamless international payment processing.",
+      title: "Soporte Multi-moneda",
+      description: "Procesa pagos en múltiples monedas con tasas de cambio en tiempo real.",
+      expandedDescription: "Acepta y procesa pagos en más de 150 monedas con tasas de cambio competitivas. Conversión automática de moneda, herramientas de cobertura y contabilidad multi-moneda. Expande tu negocio globalmente con procesamiento de pagos internacionales sin problemas.",
       icon: (
         <Star size={24} className="text-cosmic-accent" />
       )
     },
     {
-      title: "API Integration",
-      description: "Powerful APIs for seamless integration with your existing financial systems.",
-      expandedDescription: "Connect with your ERP, accounting software, and banking systems through our comprehensive APIs. Real-time webhooks, detailed documentation, and SDKs for popular programming languages. Build custom integrations that fit your unique business needs.",
+      title: "Integración API",
+      description: "APIs poderosas para integración perfecta con tus sistemas financieros existentes.",
+      expandedDescription: "Conecta con tu ERP, software de contabilidad y sistemas bancarios a través de nuestras APIs comprensivas. Webhooks en tiempo real, documentación detallada y SDKs para lenguajes de programación populares. Construye integraciones personalizadas que se ajusten a las necesidades únicas de tu negocio.",
       icon: (
         <BookOpen size={24} className="text-cosmic-accent" />
       )
@@ -69,7 +69,7 @@ const Features = () => {
             Todo lo que necesita tu negocio
           </h2>
           <p className="text-cosmic-muted text-lg">
-            Comprehensive fintech solutions to streamline your financial operations and drive growth
+            Soluciones fintech integrales para optimizar tus operaciones financieras e impulsar el crecimiento
           </p>
         </div>
         
@@ -100,7 +100,7 @@ const Features = () => {
                   <p className="text-cosmic-muted">{feature.expandedDescription}</p>
                   <div className="mt-4 flex justify-end">
                     <button className="text-cosmic-accent hover:text-cosmic-accent/80 text-sm font-medium">
-                      Learn more →
+                      Conoce más →
                     </button>
                   </div>
                 </div>
