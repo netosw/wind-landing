@@ -37,17 +37,17 @@ const HeroSection = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
-            Start for free
-          </Button>
-          <Button variant="outline" className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
-            Book a demo
-          </Button>
+           <Button className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
+             Comenzar gratis
+           </Button>
+           <Button variant="outline" className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
+             Reservar demo
+           </Button>
         </div>
         
-        <div className="pt-6 text-sm text-muted-foreground">
-          No credit card required • Free 14-day trial
-        </div>
+         <div className="pt-6 text-sm text-muted-foreground">
+           Sin tarjeta de crédito requerida • Prueba gratuita de 14 días
+         </div>
       </div>
       
       {/* Dashboard Image */}

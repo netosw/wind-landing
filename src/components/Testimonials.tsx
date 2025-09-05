@@ -4,21 +4,21 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Our payment processing efficiency increased by 40% and transaction failures dropped to near zero. The automation features are game-changing.",
+      quote: "Nuestra eficiencia en el procesamiento de pagos aumentó 40% y las fallas de transacción bajaron casi a cero. Las funciones de automatización son revolucionarias.",
       author: "Sarah Johnson",
-      position: "CFO at TechCorp",
+      position: "CFO en TechCorp",
       avatar: "bg-cosmic-light/30"
     },
     {
-      quote: "The real-time analytics and fraud detection capabilities have saved us millions. We can spot issues before they become problems.",
+      quote: "Las capacidades de análisis en tiempo real y detección de fraudes nos han ahorrado millones. Podemos detectar problemas antes de que se conviertan en crisis.",
       author: "Michael Chen",
-      position: "Head of Risk at FinanceFlow",
+      position: "Jefe de Riesgo en FinanceFlow",
       avatar: "bg-cosmic-light/20"
     },
     {
-      quote: "Compliance used to be a nightmare. Now our regulatory reporting is automated and we're always audit-ready.",
+      quote: "El cumplimiento solía ser una pesadilla. Ahora nuestros reportes regulatorios están automatizados y siempre estamos listos para auditorías.",
       author: "Leila Rodriguez",
-      position: "Operations Director at GlobalPay",
+      position: "Directora de Operaciones en GlobalPay",
       avatar: "bg-cosmic-light/40"
     }
   ];
@@ -31,10 +31,10 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto space-y-16 relative z-10">
         <div className="text-center space-y-4 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">
-            Trusted by finance teams worldwide
+            Confianza de equipos financieros en todo el mundo
           </h2>
           <p className="text-muted-foreground text-lg">
-            See how our platform transforms financial operations for businesses
+            Ve cómo nuestra plataforma transforma las operaciones financieras de empresas
           </p>
         </div>
         

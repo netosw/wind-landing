@@ -68,7 +68,7 @@ const Header = () => {
                 )}
                 onClick={handleNavClick('features')}
               >
-                <CircleDot size={16} className="inline-block mr-1.5" /> Features
+                 <CircleDot size={16} className="inline-block mr-1.5" /> Características
               </ToggleGroupItem>
               <ToggleGroupItem 
                 value="dashboard" 
@@ -78,7 +78,7 @@ const Header = () => {
                 )}
                 onClick={handleNavClick('dashboard')}
               >
-                <LayoutDashboard size={16} className="inline-block mr-1.5" /> Dashboard
+                 <LayoutDashboard size={16} className="inline-block mr-1.5" /> Panel
               </ToggleGroupItem>
               <ToggleGroupItem 
                 value="pricing" 
@@ -88,7 +88,7 @@ const Header = () => {
                 )}
                 onClick={handleNavClick('pricing')}
               >
-                <DollarSign size={16} className="inline-block mr-1.5" /> Pricing
+                 <DollarSign size={16} className="inline-block mr-1.5" /> Precios
               </ToggleGroupItem>
             </ToggleGroup>
           </div>
@@ -105,7 +105,7 @@ const Header = () => {
                 }`}
                 onClick={handleNavClick('features')}
               >
-                <CircleDot size={16} className="inline-block mr-1.5" /> Features
+                <CircleDot size={16} className="inline-block mr-1.5" /> Características
               </a>
               <a 
                 href="#dashboard" 
@@ -114,7 +114,7 @@ const Header = () => {
                 }`}
                 onClick={handleNavClick('dashboard')}
               >
-                <LayoutDashboard size={16} className="inline-block mr-1.5" /> Dashboard
+                <LayoutDashboard size={16} className="inline-block mr-1.5" /> Panel
               </a>
               <a 
                 href="#pricing" 
@@ -123,12 +123,12 @@ const Header = () => {
                 }`}
                 onClick={handleNavClick('pricing')}
               >
-                <DollarSign size={16} className="inline-block mr-1.5" /> Pricing
+                <DollarSign size={16} className="inline-block mr-1.5" /> Precios
               </a>
               
               {/* Add theme toggle for mobile */}
               <div className="flex items-center justify-between px-3 py-2">
-                <span className="text-sm text-muted-foreground">Theme</span>
+                <span className="text-sm text-muted-foreground">Tema</span>
                 <div className="flex items-center gap-2">
                   <Moon size={16} className={`${isDarkMode ? 'text-primary' : 'text-muted-foreground'}`} />
                   <Switch 
@@ -155,7 +155,7 @@ const Header = () => {
             <Sun size={18} className={`${!isDarkMode ? 'text-primary' : 'text-muted-foreground'}`} />
           </div>
           <div className="rounded-2xl">
-            <Button variant="ghost" className="text-muted-foreground hover:text-foreground hover:bg-muted">Log in</Button>
+            <Button variant="ghost" className="text-muted-foreground hover:text-foreground hover:bg-muted">Iniciar sesión</Button>
           </div>
         </div>
       </header>

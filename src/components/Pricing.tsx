@@ -6,52 +6,52 @@ import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card'
 const Pricing = () => {
   const plans = [
     {
-      name: "Starter",
-      price: "Free",
-      description: "Perfect for small businesses starting their fintech journey",
+      name: "Inicial",
+      price: "Gratis",
+      description: "Perfecto para pequeñas empresas iniciando su jornada fintech",
       features: [
-        "Up to 100 transactions/month",
-        "Basic payment processing",
-        "Standard reporting",
-        "Email support",
-        "Basic fraud protection"
+        "Hasta 100 transacciones/mes",
+        "Procesamiento básico de pagos",
+        "Reportes estándar",
+        "Soporte por email",
+        "Protección básica contra fraudes"
       ],
-      buttonText: "Get Started",
+      buttonText: "Comenzar",
       buttonVariant: "outline",
       popular: false
     },
     {
-      name: "Professional",
+      name: "Profesional",
       price: "$99",
-      period: "per month",
-      description: "Ideal for growing businesses with higher transaction volumes",
+      period: "por mes",
+      description: "Ideal para empresas en crecimiento con mayores volúmenes de transacción",
       features: [
-        "Up to 10,000 transactions/month",
-        "Advanced payment processing",
-        "Real-time analytics",
-        "Multi-currency support",
-        "Advanced fraud protection",
-        "API access",
-        "Priority support"
+        "Hasta 10,000 transacciones/mes",
+        "Procesamiento avanzado de pagos",
+        "Análisis en tiempo real",
+        "Soporte multi-moneda",
+        "Protección avanzada contra fraudes",
+        "Acceso a API",
+        "Soporte prioritario"
       ],
-      buttonText: "Start 14-day trial",
+      buttonText: "Iniciar prueba de 14 días",
       buttonVariant: "default",
       popular: true
     },
     {
-      name: "Enterprise",
-      price: "Custom",
-      description: "For large organizations with complex financial operations",
+      name: "Empresarial",
+      price: "Personalizado",
+      description: "Para grandes organizaciones con operaciones financieras complejas",
       features: [
-        "Unlimited transactions",
-        "Custom payment workflows",
-        "Advanced compliance tools",
-        "Dedicated infrastructure",
-        "White-label solutions",
-        "Dedicated account manager",
-        "24/7 premium support"
+        "Transacciones ilimitadas",
+        "Flujos de pago personalizados",
+        "Herramientas avanzadas de cumplimiento",
+        "Infraestructura dedicada",
+        "Soluciones de marca blanca",
+        "Gerente de cuenta dedicado",
+        "Soporte premium 24/7"
       ],
-      buttonText: "Contact Sales",
+      buttonText: "Contactar Ventas",
       buttonVariant: "outline",
       popular: false
     }
@@ -62,10 +62,10 @@ const Pricing = () => {
       <div className="max-w-7xl mx-auto space-y-16">
         <div className="text-center space-y-4 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter text-foreground">
-            Transparent pricing for every stage
+            Precios transparentes para cada etapa
           </h2>
           <p className="text-muted-foreground text-lg">
-            Scale your financial operations with plans that grow with your business
+            Escala tus operaciones financieras con planes que crecen con tu negocio
           </p>
         </div>
         
@@ -80,9 +80,9 @@ const Pricing = () => {
               } transition-all duration-300 relative`}
             >
               {plan.popular && (
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-primary text-primary-foreground text-sm rounded-full font-medium">
-                  Most Popular
-                </div>
+                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-primary text-primary-foreground text-sm rounded-full font-medium">
+                   Más Popular
+                 </div>
               )}
               
               <div className="mb-auto">
@@ -125,9 +125,9 @@ const Pricing = () => {
           ))}
         </div>
         
-        <div className="text-center text-muted-foreground">
-          Have questions? <a href="#" className="text-primary hover:underline">Contact our sales team</a>
-        </div>
+         <div className="text-center text-muted-foreground">
+           ¿Tienes preguntas? <a href="#" className="text-primary hover:underline">Contacta nuestro equipo de ventas</a>
+         </div>
       </div>
     </section>
   );
