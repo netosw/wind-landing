@@ -33,7 +33,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-          Streamline your financial workflows with our comprehensive fintech platform. Built for modern businesses who value efficiency, compliance, and scalable growth.
+          Wind automatiza y simplifica la gestión, facturación y cobranza de tu negocio, reuniendo todos tus procesos financieros en un solo lugar para que controles, cobres y crezcas sin complicaciones.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
