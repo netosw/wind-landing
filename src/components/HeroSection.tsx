@@ -23,7 +23,7 @@ const HeroSection = () => {
         <div className="flex justify-center">
           <span className="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium rounded-full bg-muted text-primary">
             <span className="flex h-2 w-2 rounded-full bg-primary"></span>
-            Launching new payment features
+            Automatiza • Factura • Cobra • Cumple con el SAT
             <Loader className="h-3 w-3 animate-spin text-primary" />
           </span>
         </div>
