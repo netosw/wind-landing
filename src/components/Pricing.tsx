@@ -110,16 +110,32 @@ const Pricing = () => {
               </div>
               
               <div className="mt-6">
-                <Button 
-                  className={
-                    plan.buttonVariant === "default" 
-                      ? "w-full bg-primary text-primary-foreground hover:bg-primary/90" 
-                      : "w-full border-border text-foreground hover:bg-muted"
-                  }
-                  variant={plan.buttonVariant as "default" | "outline"}
-                >
-                  {plan.buttonText}
-                </Button>
+                {plan.name === "Empresarial" ? (
+                  <Button 
+                    className={
+                      plan.buttonVariant === "default" 
+                        ? "w-full bg-primary text-primary-foreground hover:bg-primary/90" 
+                        : "w-full border-border text-foreground hover:bg-muted"
+                    }
+                    variant={plan.buttonVariant as "default" | "outline"}
+                    asChild
+                  >
+                    <a href="mailto:ernesto@windapp.mx">
+                      Contactar ventas
+                    </a>
+                  </Button>
+                ) : (
+                  <Button 
+                    className={
+                      plan.buttonVariant === "default" 
+                        ? "w-full bg-primary text-primary-foreground hover:bg-primary/90" 
+                        : "w-full border-border text-foreground hover:bg-muted"
+                    }
+                    variant={plan.buttonVariant as "default" | "outline"}
+                  >
+                    {plan.buttonText}
+                  </Button>
+                )}
               </div>
             </div>
           ))}
