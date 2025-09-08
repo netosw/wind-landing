@@ -155,7 +155,15 @@ const Header = () => {
             <Sun size={18} className={`${!isDarkMode ? 'text-primary' : 'text-muted-foreground'}`} />
           </div>
           <div className="rounded-2xl">
-            <Button variant="ghost" className="text-muted-foreground hover:text-foreground hover:bg-muted">Iniciar sesión</Button>
+            <Button 
+              variant="ghost" 
+              className="text-muted-foreground hover:text-foreground hover:bg-muted"
+              asChild
+            >
+              <a href="https://windapp.ai/login" target="_blank" rel="noopener noreferrer">
+                Iniciar sesión
+              </a>
+            </Button>
           </div>
         </div>
       </header>
