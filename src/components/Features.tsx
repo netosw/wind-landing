@@ -98,11 +98,6 @@ const Features = () => {
               <CollapsibleContent className="px-6 pb-6 pt-2">
                 <div className="pt-3 border-t border-cosmic-light/10">
                   <p className="text-cosmic-muted">{feature.expandedDescription}</p>
-                  <div className="mt-4 flex justify-end">
-                    <button className="text-cosmic-accent hover:text-cosmic-accent/80 text-sm font-medium">
-                      Conoce más →
-                    </button>
-                  </div>
                 </div>
               </CollapsibleContent>
             </Collapsible>
