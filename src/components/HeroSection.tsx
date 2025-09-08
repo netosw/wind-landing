@@ -45,19 +45,13 @@ const HeroSection = () => {
            </Button>
         </div>
         
-         <div className="pt-6 text-sm text-muted-foreground">
-           Sin tarjeta de crédito requerida • Prueba gratuita de 14 días
-         </div>
+         
       </div>
       
       {/* Dashboard Image */}
       <div className={`w-full max-w-7xl mt-12 z-10 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
         <div className="cosmic-glow relative rounded-xl overflow-hidden border border-border backdrop-blur-sm bg-card shadow-lg">
-          <img 
-            src="/lovable-uploads/47c4ccc5-f11a-40bc-a8d5-41bdad99902d.png" 
-            alt="Wind Dashboard - Financial Management Interface"
-            className="w-full h-auto"
-          />
+          <img src="/lovable-uploads/47c4ccc5-f11a-40bc-a8d5-41bdad99902d.png" alt="Wind Dashboard - Financial Management Interface" className="w-full h-auto" />
         </div>
       </div>
     </section>;
