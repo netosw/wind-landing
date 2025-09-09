@@ -43,7 +43,7 @@ const Features = () => {
           <h2 className="text-3xl md:text-4xl font-medium tracking-tighter">
             Todo lo que necesita tu negocio
           </h2>
-          <p className="text-cosmic-muted text-lg">Tu nuevo centro de control para eficientar todos tus procesos de gestion y operación financiera</p>
+          <p className="text-cosmic-muted text-lg">Automatiza el ciclo completo de tus procesos de gestión financiera</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
