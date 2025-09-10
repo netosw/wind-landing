@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { ChevronDown, Layers, Grid3x3, ListCheck, BookOpen, Star, LayoutDashboard } from "lucide-react";
 const Features = () => {
-  const [openFeature, setOpenFeature] = useState<number | null>(null);
+  const [openFeatures, setOpenFeatures] = useState<number[]>([0, 1, 2, 3, 4, 5]);
   const features = [{
     title: "Automatización de Pagos",
     description: "Automatiza el procesamiento de pagos y conciliación para reducir errores manuales y mejorar la eficiencia.",
@@ -35,7 +35,11 @@ const Features = () => {
     icon: <BookOpen size={24} className="text-cosmic-accent" />
   }];
   const toggleFeature = (index: number) => {
-    setOpenFeature(openFeature === index ? null : index);
+    setOpenFeatures(prev => 
+      prev.includes(index) 
+        ? prev.filter(i => i !== index)
+        : [...prev, index]
+    );
   };
   return <section id="features" className="w-full py-12 md:py-16 px-6 md:px-12">
       <div className="max-w-7xl mx-auto space-y-12">
@@ -47,13 +51,13 @@ const Features = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => <Collapsible key={index} open={openFeature === index} onOpenChange={() => toggleFeature(index)} className={`rounded-xl border ${openFeature === index ? 'border-cosmic-light/40' : 'border-cosmic-light/20'} cosmic-gradient transition-all duration-300`}>
+          {features.map((feature, index) => <Collapsible key={index} open={openFeatures.includes(index)} onOpenChange={() => toggleFeature(index)} className={`rounded-xl border ${openFeatures.includes(index) ? 'border-cosmic-light/40' : 'border-cosmic-light/20'} cosmic-gradient transition-all duration-300`}>
               <CollapsibleTrigger className="w-full text-left p-6 flex flex-col">
                 <div className="flex justify-between items-start">
                   <div className="h-16 w-16 rounded-full bg-cosmic-light/10 flex items-center justify-center mb-6">
                     {feature.icon}
                   </div>
-                  <ChevronDown className={`h-5 w-5 text-cosmic-muted transition-transform duration-200 ${openFeature === index ? 'rotate-180' : ''}`} />
+                  <ChevronDown className={`h-5 w-5 text-cosmic-muted transition-transform duration-200 ${openFeatures.includes(index) ? 'rotate-180' : ''}`} />
                 </div>
                 <h3 className="text-xl font-medium tracking-tighter mb-3">{feature.title}</h3>
                 <p className="text-cosmic-muted">{feature.description}</p>
