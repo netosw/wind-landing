@@ -75,7 +75,6 @@ const Features = () => {
                   <div className="h-16 w-16 rounded-full bg-cosmic-light/10 flex items-center justify-center mb-6">
                     {feature.icon}
                   </div>
-                  <ChevronDown className={`h-5 w-5 text-cosmic-muted transition-transform duration-200 ${openFeatures.includes(index) ? 'rotate-180' : ''}`} />
                 </div>
                 <h3 className="text-xl font-medium tracking-tighter mb-3">{feature.title}</h3>
                 <p className="text-cosmic-muted">{feature.description}</p>
