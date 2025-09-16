@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import Logo from './Logo';
-import { Menu, X, CircleDot, LayoutDashboard, DollarSign, Sun, Moon } from 'lucide-react';
+import { Menu, X, CircleDot, Star, Sun, Moon } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group';
 import { Switch } from '@/components/ui/switch';
@@ -71,24 +71,14 @@ const Header = () => {
                  <CircleDot size={16} className="inline-block mr-1.5" /> Características
               </ToggleGroupItem>
               <ToggleGroupItem 
-                value="dashboard" 
+                value="testimonials" 
                 className={cn(
                   "px-4 py-2 rounded-full transition-colors relative",
-                  activePage === 'dashboard' ? 'text-accent-foreground bg-accent' : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+                  activePage === 'testimonials' ? 'text-accent-foreground bg-accent' : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 )}
-                onClick={handleNavClick('dashboard')}
+                onClick={handleNavClick('testimonials')}
               >
-                 <LayoutDashboard size={16} className="inline-block mr-1.5" /> Panel
-              </ToggleGroupItem>
-              <ToggleGroupItem 
-                value="pricing" 
-                className={cn(
-                  "px-4 py-2 rounded-full transition-colors relative",
-                  activePage === 'pricing' ? 'text-accent-foreground bg-accent' : 'text-muted-foreground hover:text-foreground hover:bg-muted'
-                )}
-                onClick={handleNavClick('pricing')}
-              >
-                 <DollarSign size={16} className="inline-block mr-1.5" /> Precios
+                 <Star size={16} className="inline-block mr-1.5" /> Testimonios
               </ToggleGroupItem>
             </ToggleGroup>
           </div>
@@ -108,22 +98,13 @@ const Header = () => {
                 <CircleDot size={16} className="inline-block mr-1.5" /> Características
               </a>
               <a 
-                href="#dashboard" 
+                href="#testimonials" 
                 className={`px-3 py-2 text-sm rounded-md transition-colors ${
-                  activePage === 'dashboard' ? 'bg-accent text-accent-foreground' : 'text-muted-foreground hover:text-foreground hover:bg-muted'
+                  activePage === 'testimonials' ? 'bg-accent text-accent-foreground' : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 }`}
-                onClick={handleNavClick('dashboard')}
+                onClick={handleNavClick('testimonials')}
               >
-                <LayoutDashboard size={16} className="inline-block mr-1.5" /> Panel
-              </a>
-              <a 
-                href="#pricing" 
-                className={`px-3 py-2 text-sm rounded-md transition-colors ${
-                  activePage === 'pricing' ? 'bg-accent text-accent-foreground' : 'text-muted-foreground hover:text-foreground hover:bg-muted'
-                }`}
-                onClick={handleNavClick('pricing')}
-              >
-                <DollarSign size={16} className="inline-block mr-1.5" /> Precios
+                <Star size={16} className="inline-block mr-1.5" /> Testimonios
               </a>
               
               {/* Add theme toggle for mobile */}
