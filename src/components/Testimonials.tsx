@@ -4,13 +4,13 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Ahora puedo gestionar a mis clientes en la misma plataforma donde les cobro, esto ha hecho mis procesos mucho más simples y con menos errores.",
+      quote: "Gracias a Wind ya no tengo cuentas por cobrar perdidas y el flujo de efectivo de mi negocio esta al día.",
       author: "Sarah Johnson",
       position: "CFO en TechCorp",
       avatar: "bg-cosmic-light/30"
     },
     {
-      quote: "Las capacidades de análisis en tiempo real y detección de fraudes nos han ahorrado millones. Podemos detectar problemas antes de que se conviertan en crisis.",
+      quote: "Ahora puedo gestionar a mis clientes en la misma plataforma donde les cobro, esto ha hecho mis procesos mucho más simples y con menos errores.",
       author: "Michael Chen",
       position: "Jefe de Riesgo en FinanceFlow",
       avatar: "bg-cosmic-light/20"
