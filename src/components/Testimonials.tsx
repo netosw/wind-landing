@@ -42,15 +42,15 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index}
-              className="p-6 rounded-xl border border-border bg-background/80 backdrop-blur-sm hover:border-border/60 transition-all duration-300"
+              className="p-6 rounded-xl border border-border bg-background/80 backdrop-blur-sm hover:border-border/60 transition-all duration-300 flex flex-col h-full"
             >
               <div className="mb-6">
                 {[...Array(5)].map((_, i) => (
                   <span key={i} className="text-primary inline-block mr-1">★</span>
                 ))}
               </div>
-              <p className="text-lg mb-8 text-foreground/90 italic">"{testimonial.quote}"</p>
-              <div className="flex items-center gap-4">
+              <p className="text-lg mb-8 text-foreground/90 italic flex-grow">"{testimonial.quote}"</p>
+              <div className="flex items-center gap-4 mt-auto">
                 <div className={`h-12 w-12 rounded-full ${testimonial.avatar} bg-muted`}></div>
                 <div>
                   <h4 className="font-medium text-foreground">{testimonial.author}</h4>
