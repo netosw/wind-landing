@@ -6,26 +6,26 @@ const Features = () => {
   const features = [
     {
       title: "Automatización de Pagos",
-      description: "Automatiza el procesamiento de pagos y conciliación para reducir errores manuales y mejorar la eficiencia.",
-      expandedDescription: "Configura flujos de trabajo de pagos automatizados con cadenas de aprobación personalizadas. Programa pagos recurrentes, automatiza el procesamiento de facturas y crea reglas condicionales para diferentes tipos de transacción. Reduce la intervención manual y asegura el cumplimiento de las regulaciones financieras.",
+      description: "Wind simplifica y agiliza todo el ciclo de pagos, desde la programación hasta la conciliación automática.",
+      expandedDescription: "Gracias a la conexión de cobranza y al SAT, puedes configurar flujos de aprobación personalizados, programar pagos recurrentes y validar facturas emitidas y recibidas sin intervención manual, reduciendo errores y asegurando precisión en cada transacción.",
       icon: <Layers size={24} className="text-cosmic-accent" />
     },
     {
       title: "Análisis en Tiempo Real",
-      description: "Monitorea el desempeño financiero con dashboards en tiempo real y reportes comprensivos.",
-      expandedDescription: "Rastrea métricas financieras clave con dashboards personalizables. Monitorea flujo de efectivo, volúmenes de pago y tasas de éxito de transacciones en tiempo real. Genera reportes detallados para stakeholders e identifica tendencias antes de que impacten tu negocio.",
+      description: "Obtén visibilidad financiera inmediata con dashboards y reportes inteligentes.",
+      expandedDescription: "Wind rastrea flujo de efectivo, facturación, cobranza y tendencias de pago en tiempo real, ofreciendo reportes de ganancias y costos listos para compartir. Esto te permite anticipar riesgos y tomar decisiones informadas antes de que impacten tu negocio.",
       icon: <Grid3x3 size={24} className="text-cosmic-accent" />
     },
     {
       title: "Gestión de Riesgos",
-      description: "Herramientas avanzadas de detección de fraudes y evaluación de riesgos para proteger tu negocio.",
-      expandedDescription: "Utiliza algoritmos de machine learning para detectar transacciones sospechosas y prevenir fraudes. Configura reglas de riesgo personalizadas, monitorea patrones de transacción y recibe alertas instantáneas de actividad inusual. Protege tu negocio con medidas de seguridad de nivel empresarial.",
+      description: "Protege tu operación con herramientas que previenen errores y anomalías.",
+      expandedDescription: "Confronta automáticamente CFDIs emitidos y recibidos, recibe alertas sobre movimientos inusuales y aprovecha el precálculo de facturas para minimizar fraudes y pérdidas. Wind convierte la gestión de riesgos en un proceso continuo y proactivo.",
       icon: <LayoutDashboard size={24} className="text-cosmic-accent" />
     },
     {
-      title: "Herramientas de Cumplimiento",
-      description: "Características de cumplimiento integradas para cumplir requisitos regulatorios sin esfuerzo.",
-      expandedDescription: "Mantente en cumplimiento con regulaciones financieras en múltiples jurisdicciones. Verificaciones KYC/AML automatizadas, monitoreo de transacciones y reportes regulatorios. Genera auditorías y mantén documentación para cumplir estándares de compliance.",
+      title: "Cumplimiento Integrado",
+      description: "Cumple siempre con las regulaciones sin esfuerzo adicional.",
+      expandedDescription: "La plataforma está conectada directamente al SAT, generando documentación lista para auditorías y asegurando que cada factura y pago cumpla con los estándares fiscales. Wind integra compliance de forma nativa, dándote la tranquilidad de operar en regla.",
       icon: <ListCheck size={24} className="text-cosmic-accent" />
     },
     {
