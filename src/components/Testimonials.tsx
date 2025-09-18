@@ -4,7 +4,7 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Gracias a Wind ya no tengo cuentas por cobrar perdidas y el flujo de efectivo de mi negocio esta al día.",
+      quote: "Ahora puedo gestionar a mis clientes en la misma plataforma donde les cobro, esto ha hecho mis procesos mucho más simples y con menos errores.",
       author: "Sarah Johnson",
       position: "CFO en TechCorp",
       avatar: "bg-cosmic-light/30"
