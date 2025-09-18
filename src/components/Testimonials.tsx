@@ -16,7 +16,7 @@ const Testimonials = () => {
       avatar: "bg-cosmic-light/20"
     },
     {
-      quote: "El cumplimiento solía ser una pesadilla. Ahora nuestros reportes regulatorios están automatizados y siempre estamos listos para auditorías.",
+      quote: "Recomendaría Wind sin pensarlo, gracias a la plataforma detectamos una deuda de un cliente de más de 5 Millones de pesos que no le dimos seguimiento por un mal proceso operativo.",
       author: "Leila Rodriguez",
       position: "Directora de Operaciones en GlobalPay",
       avatar: "bg-cosmic-light/40"
