@@ -4,7 +4,7 @@ import React from 'react';
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Nuestra eficiencia en el procesamiento de pagos aumentó 40% y las fallas de transacción bajaron casi a cero. Las funciones de automatización son revolucionarias.",
+      quote: "Gracias a Wind ya no tengo cuentas por cobrar perdidas y el flujo de efectivo de mi negocio esta al día.",
       author: "Sarah Johnson",
       position: "CFO en TechCorp",
       avatar: "bg-cosmic-light/30"
