@@ -11,9 +11,9 @@ const Features = () => {
       icon: <Layers size={24} className="text-cosmic-accent" />
     },
     {
-      title: "Análisis en Tiempo Real",
-      description: "Obtén visibilidad financiera inmediata con dashboards y reportes inteligentes.",
-      expandedDescription: "Wind rastrea flujo de efectivo, facturación, cobranza y tendencias de pago en tiempo real, ofreciendo reportes de ganancias y costos listos para compartir. Esto te permite anticipar riesgos y tomar decisiones informadas antes de que impacten tu negocio.",
+      title: "Agente IA Navi",
+      description: "Obten visibilidad financiera inmediata con reportes y análisis proactivo de Navi, tu asistente inteligente.",
+      expandedDescription: "Navi te permite hacer las preguntas que quieras y obtener la respuesta en segundos, sin necesidad de buscar y juntar toda la información de forma manual. Además, puede realizar acciones como facturar si se lo pides o crear nuevos clientes.",
       icon: <Grid3x3 size={24} className="text-cosmic-accent" />
     },
     {
