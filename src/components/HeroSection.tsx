@@ -48,7 +48,7 @@ const HeroSection = () => {
       
       {/* Dashboard Image */}
       <div className={`w-full max-w-7xl mt-12 z-10 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
-        <div className="cosmic-glow relative rounded-xl overflow-hidden border border-border backdrop-blur-sm bg-card shadow-lg">
+        <div className="relative">
           <img src="/lovable-uploads/mac.png" alt="Wind Dashboard - Financial Management Interface" className="w-full h-auto" />
         </div>
       </div>
