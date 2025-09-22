@@ -49,7 +49,14 @@ const HeroSection = () => {
       {/* Dashboard Image */}
       <div className={`w-full max-w-7xl mt-12 z-10 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'}`}>
         <div className="relative">
-          <img src="/lovable-uploads/mac.png" alt="Wind Dashboard - Financial Management Interface" className="w-full h-auto" />
+          <img 
+            src="/lovable-uploads/mac.png" 
+            alt="Wind Dashboard - Financial Management Interface showing automated invoicing, client management, and AI assistant Navi" 
+            className="w-full h-auto" 
+            loading="lazy"
+            width="1920"
+            height="1080"
+          />
         </div>
       </div>
     </section>;
