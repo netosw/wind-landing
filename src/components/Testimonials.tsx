@@ -5,20 +5,20 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote: "Gracias a Wind ya no tengo cuentas por cobrar perdidas y el flujo de efectivo de mi negocio esta al día.",
-      author: "Sarah Johnson",
-      position: "CFO en TechCorp",
+      author: "Mark",
+      position: "CFO en TIDE Agendia de desarrollo",
       avatar: "bg-cosmic-light/30"
     },
     {
       quote: "Ahora puedo gestionar a mis clientes en la misma plataforma donde les cobro, esto ha hecho mis procesos mucho más simples y con menos errores.",
-      author: "Michael Chen",
-      position: "Jefe de Riesgo en FinanceFlow",
+      author: "Pedro",
+      position: "Jefe de Riesgo en Startup s/n",
       avatar: "bg-cosmic-light/20"
     },
     {
       quote: "Recomendaría Wind sin pensarlo, gracias a la plataforma detectamos una deuda de un cliente de más de 5 Millones de pesos que no le dimos seguimiento por un mal proceso operativo.",
-      author: "Leila Rodriguez",
-      position: "Directora de Operaciones en GlobalPay",
+      author: "Maria José",
+      position: "Directora de Operaciones en Grupo PEHAMBRA",
       avatar: "bg-cosmic-light/40"
     }
   ];
