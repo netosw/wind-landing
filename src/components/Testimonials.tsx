@@ -6,7 +6,7 @@ const Testimonials = () => {
     {
       quote: "Gracias a Wind ya no tengo cuentas por cobrar perdidas y el flujo de efectivo de mi negocio esta al día.",
       author: "Mark",
-      position: "CFO en TIDE Agendia de desarrollo",
+      position: "CFO en TIDE agencia de desarrollo",
       avatar: "bg-cosmic-light/30"
     },
     {
