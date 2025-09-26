@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </div>
           
-           <div className="space-y-4">
+           {/* <div className="space-y-4">
              <h4 className="font-medium text-lg text-foreground">Producto</h4>
              <ul className="space-y-3">
                <li><a href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Características</a></li>
@@ -65,7 +65,7 @@ const Footer = () => {
                <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Referencia API</a></li>
                <li><a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Comunidad</a></li>
              </ul>
-           </div>
+           </div> */}
         </div>
         
          <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center text-muted-foreground text-sm">
